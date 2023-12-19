@@ -1,0 +1,7 @@
+name: git hub axtion demo
+on:
+  push:
+    branches: 
+    branches-ignore: .github/**
+ pull_request:
+ 
