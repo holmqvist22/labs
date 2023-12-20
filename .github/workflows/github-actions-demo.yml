@@ -6,8 +6,7 @@ on:
   pull_request:
     branches: [ main ]
 
-  on:
-   workflow_dispatch:
+  on:workflow_dispatch:
     inputs:
       environment: 
         description: 'Environment to deploy to'
